@@ -1,0 +1,35 @@
+.intro-section {
+    position: absolute;
+    top: calc(40% - 120px);
+    width: 100%;
+    padding: 0px 250px;
+    .intro-header {
+        font-size: 50px;
+        font-weight: 300;
+    }
+    .intro-sub-header {
+        font-size: 60px;
+        line-height: 1.1;
+        color: #8892b0;
+    }
+
+    .intro-content {
+        margin-top: 30px;
+        width: 500px;
+        font-size: 18px;
+        color: #8b959e;
+    }
+
+    .intro-contact {
+        padding-top: 70px;
+        .contact {
+            text-decoration: underline;
+            color: #f6f7f7;
+        }
+        
+        .contact:hover {
+            -webkit-transform: translateY(-0.1em);
+            transform: translateY(-0.20em);
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.nav-bar {
+    padding: 45px 0px;
+    background: transparent;
+    .nav-content {
+        display: flex;
+        .brand-style {
+            letter-spacing: 5px;
+            flex-grow: 1;
+            font-weight: 500;
+            color: #52d3ba;
+        }
+        .floater {
+            float: right;
+            .nav-link {
+                color: white !important;
+                font-weight: 100;
+                transition: color 0.2s ease;
+                font-size: 14px;
+            }
+
+            .nav-link:hover {
+                color: #52d3ba !important;
+            }
+        }
+    }
+}
+
