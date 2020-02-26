@@ -4,23 +4,23 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ContainerComponent } from './container/container.component';
-import { AboutComponent } from './about/about.component';
-import { WorkComponent } from './work/work.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { IntroComponent } from './intro/intro.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { AboutComponent } from './components/about/about.component';
+import { SharedModule } from './shared/shared.module';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     ContainerComponent,
+    IntroComponent,
     AboutComponent,
-    WorkComponent,
-    ExperienceComponent,
-    IntroComponent
+    ExperienceComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,10 @@
+<div class="rect-card" [style.width.px]="width" [style.marginLeft.%]="alignment">
+  <div class="carddd"> </div>
+  <h5 *ngIf="header" class="header">
+        {{header}}
+  </h5>
+  <div *ngIf="description" class="description">
+    {{description}}
+  </div>
+  <ng-content></ng-content>
+</div>

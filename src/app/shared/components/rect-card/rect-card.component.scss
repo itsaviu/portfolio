@@ -1,0 +1,19 @@
+.rect-card {
+    background-color: #152435;
+    transition: background-color 0.2s ease;
+    width: 700px;
+    padding: 30px 60px;
+    margin: 30px 0px ;
+    white-space: pre-line;
+    .header {
+        color: #8892b0;
+    }
+    .description {
+        color: #c7c7c7;
+        font-family: monospace;
+        font-size: 14px;
+    }
+}
+.rect-card:hover {
+    background-color: #16273c;
+}
