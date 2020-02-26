@@ -1,0 +1,25 @@
+.about {
+    .skill{
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+        background-color: #233346;
+
+    }
+    .skill-list {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(140px, 200px));
+        overflow: hidden;
+        padding: 0px;
+        margin: 2px 0px 0px 12px;
+        list-style: none;
+        li::before {
+            content: "▹";
+            margin-right: 5px;
+            color: rgb(100, 255, 218);
+            font-size: 14px;
+            line-height: 12px;
+        }
+    }
+}
+ 

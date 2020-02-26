@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ParticlesConfig } from '../config/particles.config';
+import { ParticlesConfig } from '../../config/particles.config';
 
 declare let particlesJS: any;
 
