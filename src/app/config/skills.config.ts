@@ -31,7 +31,7 @@ export const SkillConfig = [{
     skillSets: [
         {
             skill: "AWS SERVICES",
-            percent: 80
+            percent: 75
         }, {
            skill: "TERRAFORM",
            percent: 75

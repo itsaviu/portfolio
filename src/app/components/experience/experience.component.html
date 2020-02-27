@@ -2,4 +2,23 @@
   <div class="section-header">
       Experience
   </div>
+  <div class="experience-wrapper">
+    <div  *ngFor="let config of experienceConfigs; last as isLast" class="experience-container">
+      <div class="left-pane" [ngClass]="{'show-border': !isLast}">
+        <div class="circle-marker"></div>
+        <div class="company">{{config.company}}</div>
+        <div class="sub-header">{{config.period}}</div>
+        <span class="link-icon"><img src="/assets/img/link.svg"></span>
+        <a href={{config.url}} target="_blank" class="sub-header">{{config.url}}</a>
+      </div>
+      <div class="right-pane">
+        <div *ngFor="let item of config.positions" class="position-content">
+          <div class="postition">{{item.position}}</div>
+          <div class="description">{{item.description}}</div>
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

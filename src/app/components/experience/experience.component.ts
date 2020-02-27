@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ExperienceConfig } from 'src/app/config/experience.config';
 
 @Component({
   selector: 'app-experience',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
-  constructor() { }
+  private experienceConfigs: any;
+
+  constructor() { 
+    this.experienceConfigs = ExperienceConfig;
+    console.log(this.experienceConfigs);
+  }
 
   ngOnInit() {
   }

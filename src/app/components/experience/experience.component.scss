@@ -1,0 +1,54 @@
+.experience {
+    .experience-wrapper {
+        margin-top: 50px;
+
+        .experience-container {
+            display: flex;
+            .show-border {
+                border-right: 1px solid;
+            }
+            .left-pane {
+                width: 33%;
+                padding-right: 3%;
+                text-align: end;
+                .company {
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                }
+                .sub-header {
+                    font-size: 13px;
+                    color: #717880;
+                    margin-right: 5%;
+                }
+                .link-icon {
+                    padding-right: 10px;
+                }
+                .circle-marker {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: white;
+                    position: relative;
+                    float: right;
+                    left: 11.8%;
+                }
+            }
+            .right-pane {
+                padding-left: 3%;
+                width: 67%;
+                .position-content {
+                    margin-bottom: 60px;
+                    .postition {
+                        font-size: 20px;
+                        letter-spacing: 2px;
+                        margin-bottom: 20px;
+                    }
+                    .description {
+                        font-size: 16px;
+                        color: #717880;
+                    }
+                }
+            }
+        }
+    }
+}
