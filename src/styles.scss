@@ -8,27 +8,26 @@ body {
 }
 
 .section-header {
-    font-size: 30px;
+    font-size: 37px;
     font-weight: 300;
-    color: #cdcfd1;
-    font-family: initial;
+    font-family: 'Playfair Display', sans-serif;
 }
 
-.section-header::before {
-    content: "▹";
-    margin-right: 10px;
-    font-family: monospace;
-    color: rgb(100, 255, 218);
-    font-size: 28px;
-    line-height: 12px;
-}
-.section-header::after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 500px;
-    background-color: #2d3952;
-    position: relative;
-    top: -20px;
-    left: 200px;
-}
+// .section-header::before {
+//     content: "▹";
+//     margin-right: 10px;
+//     font-family: monospace;
+//     color: rgb(100, 255, 218);
+//     font-size: 28px;
+//     line-height: 12px;
+// }
+// .section-header::after {
+//     content: "";
+//     display: block;
+//     height: 1px;
+//     width: 500px;
+//     background-color: #2d3952;
+//     position: relative;
+//     top: -20px;
+//     left: 200px;
+// }

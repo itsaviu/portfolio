@@ -1,4 +1,17 @@
 .about {
+    display: flex;
+    font-size: 16x;
+    .about-left-pane {
+        width: 45%;
+        .section-desc {
+            margin: 20px 100px 0px 0px;
+            color: #9ca0a4;
+            font-size: 16px;
+        }
+    }
+    .about-right-pane {
+        width: 75%;
+    }
     .skill{
         margin: 10px;
         text-align: center;

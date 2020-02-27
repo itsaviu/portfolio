@@ -7,10 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  introContent: string= "Hello, I am Avinash having 3 years of IT experience as a Software Engineer. A Full stack, dynamic and result oriented professional, proficient in developing a web application."
-   +"Has an ability to learn new technologies with minimal time period and an excellent team player.";
+  introContent: string= "Hello, I am Avinash having 3 years of IT experience as a Software Engineer, currently  working @ Coda.";
 
-  backgroundContent: string = "A brief intro on my journey, shortly after graduating from SVCE, I started working with the engineering team at Gofrugal, after 2 years I left and joined Coda."
+  aboutContent: string = "A Full stack, dynamic and result oriented professional, proficient in developing a web application.Has an ability to learn new technologies with minimal time period and an excellent team player."
+
+  backgroundContent: string = "I develop Web Application with Complex architecture and also do part time DEVOPS"
 
   skillSets: string[] = ["Serverless", "Junit", "Redux", "Docker", "Terraform", "AWS Services"]
   constructor() { }

@@ -1,0 +1,35 @@
+.skills {
+    margin: 30px 0px;
+
+    .skills-wrapper {
+        display: flex;
+        .skill-container {
+            width: 33.3%;
+            margin-top: 50px;
+
+            .skill-content {
+                padding-right: 8%;
+                .skill-header {
+                    letter-spacing: 2px;
+                    font-size: 18px;
+                    margin-bottom: 30px;
+                }
+                .skill-wrapper {
+                    display: flex;
+                    margin-bottom: 30px;
+                    .skill {
+                        width: 40%
+                    }
+                    .skill-percent {
+                        width: 60%;
+                    }
+                    .skill-value {
+                        position: relative;
+                        bottom: 18px;
+                        right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

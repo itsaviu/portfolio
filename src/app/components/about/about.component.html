@@ -1,46 +1,12 @@
 <div class="about">
-  <div class="section-header">About Me</div>
-  <app-rect-card header="WHO AM I ?" description={{introContent}} alignment="40"></app-rect-card>
-  <app-rect-card header="WHAT I DID ?" description={{backgroundContent}}></app-rect-card>
-  <app-rect-card header="MY SKILL SET" alignment="40">
-    <div class="row">
-        <div class="col-3">
-          <div class="skill">
-            <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png">
-            <div style="color: #88929b">
-              Java
-            </div>
-          </div>
-        </div>
-        <div class="col-3">
-            <div class="skill">
-                <img src="/assets/img/spring-boot.png" width="48px">
-                <div style="color: #88929b">
-                  Spring
-                </div>
-              </div>
-        </div>
-        <div class="col-3">
-            <div class="skill">
-                <img src="https://img.icons8.com/plasticine/100/000000/react.png" width="48px">
-                <div style="color: #88929b">
-                  React
-                </div>
-              </div>
-        </div>
-        <div class="col-3">
-            <div class="skill">
-                <img src="/assets/img/angular.svg">
-                <div style="color: #88929b">
-                  Angular
-                </div>
-              </div>
-        </div>
+    <div class="about-left-pane">
+      <div class="section-header">About</div>
+      <div class="section-desc">
+          {{aboutContent}}
+      </div>
     </div>
-    <ul class="skill-list row">
-      <li style="color: #88929b" *ngFor="let skillSet of skillSets">
-          {{skillSet}}
-      </li>
-    </ul>
-  </app-rect-card>
+    <div class="about-right-pane">
+        <app-rect-card header="WHO AM I ?" description={{introContent}}></app-rect-card>
+        <app-rect-card header="WHAT I DO ?" description={{backgroundContent}}></app-rect-card>
+    </div>
 </div>

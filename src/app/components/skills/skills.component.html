@@ -1,0 +1,25 @@
+<div class="skills">
+    <div class="section-header">
+        Skills
+    </div>
+    <div class="skills-wrapper">
+        <div class="skill-container" *ngFor="let config of skillConfig">
+          <div class="skill-content">
+            <div class="skill-header">
+              {{config.name}}
+            </div>
+            <div class="skill-wrapper" *ngFor="let skillSet of config.skillSets">
+              <div class="skill">
+                {{skillSet.skill}}
+              </div>
+              <div class="skill-percent">
+                  <app-progress-bar value={{skillSet.percent}}></app-progress-bar>
+              </div>
+              <div class="skill-value">
+                  {{skillSet.percent}}%
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
