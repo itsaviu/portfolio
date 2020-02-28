@@ -12,4 +12,8 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
+  scroll(element) {
+   document.getElementById(element).scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
 }

@@ -1,19 +1,19 @@
 <div class="nav-bar">
-  <div class="nav-content">
+  <div class="nav-content"  data-aos="fade-down">
     <div class="navbar-brand brand-style">AVINASH</div>
     <div class="floater">
       <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" (click)="scroll('about')">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">EXPERIENCE</a>
+            <a class="nav-link" (click)="scroll('experience')">EXPERIENCE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">WORK</a>
+            <a class="nav-link" (click)="scroll('work')">WORK</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" (click)="scroll('contact')">CONTACT</a>
           </li>
       </ul>
     </div> 

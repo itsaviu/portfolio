@@ -1,7 +1,10 @@
 <div>
-  <app-nav></app-nav>
-  <div class="main-fluid">
-      <app-container></app-container>
+  <app-loader *ngIf="loading"></app-loader>
+  <div *ngIf="!loading">
+    <app-nav></app-nav>
+    <div class="main-fluid">
+        <app-container></app-container>
+    </div>
+    <app-footer></app-footer>
   </div>
-  <app-footer></app-footer>
 </div>

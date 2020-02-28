@@ -1,0 +1,25 @@
+.loader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #061525;
+    height: 100%;
+    z-index: 99999;
+
+    .loader-content {
+        font-size: 20px;
+        color: #64ffda;
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+}
+.fade-out {
+    -webkit-transition: all .5s; /* For Safari 3.1 to 6.0 */
+    transition-delay: 7s;
+    transition: opacity .5s;
+    opacity: 0;
+}

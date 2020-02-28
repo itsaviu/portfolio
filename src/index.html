@@ -6,8 +6,13 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Playfair+Display&display=swap" rel="stylesheet">
+  <script>
+      function myFunction() {
+        window.onunload = function() {window.scrollTo(0,0);}
+      }
+  </script>
 </head>
-<body>
+<body onload="myFunction()">
   <app-root></app-root>
 </body>
 </html>
