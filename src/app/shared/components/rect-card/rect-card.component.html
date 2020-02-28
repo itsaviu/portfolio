@@ -1,7 +1,7 @@
-<div class="rect-card" [style.width.px]="width">
+<div class="rect-card" [style.width.px]="width" [style.height.px]="height">
   <div class="carddd"> </div>
   <h5 *ngIf="header" class="header">
-        {{header}}
+        <span *ngIf="chip" class="chip">{{chip}}</span>{{header}}
   </h5>
   <div *ngIf="description" class="description">
     {{description}}

@@ -9,9 +9,9 @@ export class RectCardComponent implements OnInit {
 
   @Input("header") header: string;
 
-  @Input("width") width: string;
+  @Input("chip") chip: string;
 
-  @Input("alignment") alignment: string;
+  @Input("height") height: number;
 
   @Input("description") description: string;
 

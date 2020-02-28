@@ -9,6 +9,8 @@ import { AboutComponent } from './components/about/about.component';
 import { SharedModule } from './shared/shared.module';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { WorkComponent } from './components/work/work.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SkillsComponent } from './components/skills/skills.component';
     IntroComponent,
     AboutComponent,
     ExperienceComponent,
-    SkillsComponent
+    SkillsComponent,
+    WorkComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

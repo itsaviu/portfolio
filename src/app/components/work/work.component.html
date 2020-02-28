@@ -1,0 +1,18 @@
+<div class="work">
+  <div class="section-header">My Work</div>
+  <div class="work-wrapper">
+    <div *ngFor="let config of workConfig" class="work-container">
+      <app-rect-card header={{config.name}} chip={{config.chip}} description={{config.description}} height="300">
+        <div class="work-tech">
+          <div *ngFor="let tech of config.techs" class="tech">
+            {{tech}}
+          </div>
+        </div>
+        <div class="footer">
+            <a class="footer-data" *ngIf="config.github" href={{config.github}} target="_blank"><img src="/assets/img/github.svg"/></a>
+            <a class="footer-data" *ngIf="config.url" href={{config.url}} target="_blank"><img src="/assets/img/external-link.svg"/></a>
+        </div>
+      </app-rect-card>
+    </div>
+  </div>
+</div>
