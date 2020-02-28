@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 1;
+    top: 40%;
+    .left-pane {
+        float: left;
+        ul {
+            list-style: none;
+            li {
+                margin: 20px 0px;
+            }
+        }
+    }
+    .right-pane {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        text-align: center;
+        padding-right: 20px;
+        .content {
+            color: #8b959e;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.contact-wrapper {
+    width: 80%;
+    margin: 0px auto;
+    .contact-container {
+        margin-right: 30%;
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: bold;
+        .content {
+            color: #bdbdbd;
+        }
+        .contact-detail {
+            text-decoration: none;
+            color: #42a998;
+            border: 1px solid;
+            padding: 13px;
+            border-radius: 6px;
+            font-weight: 100;
+            font-size: 15px;
+        }
+        .contact-detail:hover {
+            background-color: #16273a;
+        }
+    }
+    .contact-footer {
+        display: flex;
+        margin-top: 60px;
+        font-size: 14px;
+        .contact-feeds {
+            margin-right: 15%;
+
+            .contact-feeds-value {
+                color: #bdbdbd;
+            }
+        }
+    }
+}
