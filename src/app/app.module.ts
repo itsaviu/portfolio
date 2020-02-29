@@ -13,6 +13,7 @@ import { WorkComponent } from './components/work/work.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoaderComponent } from './loader/loader.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { LoaderComponent } from './loader/loader.component';
   ],
   imports: [
     BrowserModule,
-    SharedModule
+    SharedModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

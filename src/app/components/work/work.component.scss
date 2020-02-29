@@ -25,3 +25,17 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .work {
+        .work-wrapper {
+            grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+            .work-container {
+                .work-tech {
+                    display: none;
+                    margin: 20px 0px;
+                }
+            }
+        }
+    }
+}

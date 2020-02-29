@@ -24,3 +24,12 @@
 .rect-card:hover {
     background-color: #16273c;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .rect-card {
+        padding: 15px 20px;
+        height: 100% !important;
+    }
+
+}

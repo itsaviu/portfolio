@@ -26,4 +26,40 @@
             color: #8b959e;
         }
     }
+
+    .bottom-pane {
+        display: none;
+    }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        bottom: 0;
+        top: 95%;
+        background: #0b1b2c;
+        .left-pane, 
+        .right-pane {
+            display: none;
+        }
+        .bottom-pane {
+            display: block;
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+            padding-right: 20px;
+            width: 100%;
+            .social-media {
+                display: flex;
+                margin-bottom: 4px;
+            }
+            .signature {
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                margin-bottom: 3px;
+                color: #192838;
+            }
+        }
+    }
+  }

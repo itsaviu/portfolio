@@ -6,4 +6,10 @@
         font-family: "IBM Plex Mono",monospace;
         font-size: 17px;
     }
+    @media only screen and (max-width: 600px) {
+        .wrapper-section {
+            padding: 0px;
+        }
+    }
 }
+

@@ -35,3 +35,26 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-wrapper {
+        .contact-container {
+            margin-right: 0%;
+            font-size: 25px;
+            font-family: sans-serif;
+
+            .content {
+                margin-bottom: 10px;
+            }
+        }
+        .contact-footer {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(128px, 200px));
+            .contact-feeds {
+                margin-right: 15%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+}

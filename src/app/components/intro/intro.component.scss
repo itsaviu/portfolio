@@ -37,8 +37,37 @@
             }
         }
     }
+
     #particles-js {
         width:100%;
         height:100vh;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section {
+        .intro-section {
+            padding: 0px 20px;
+            .intro-header {
+                font-size: 28px;
+                font-weight: 200;
+            }
+            .intro-sub-header {
+                font-size: 40px;
+            }
+    
+            .intro-content {
+                margin-top: 30px;
+                width: 75%;
+                font-size: 16px;
+            }
+    
+            .intro-contact {
+                .contact {
+                    font-size: 16px;
+                }
+            }
+        }
     }
 }

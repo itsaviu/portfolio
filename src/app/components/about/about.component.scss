@@ -36,3 +36,19 @@
     }
 }
  
+
+@media only screen and (max-width: 600px) {
+
+    .about {
+        display: block;
+        .about-left-pane {
+            width: 100%;
+            .section-desc {
+                margin: 30px 0px;
+            }
+        }
+        .about-right-pane {
+            width: 100%;
+        }
+    }
+}

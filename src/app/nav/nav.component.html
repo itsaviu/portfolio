@@ -1,8 +1,27 @@
 <div class="nav-bar">
+  <div *ngIf="visible" [@slideInOut] class="slider">
+    <img src="assets/img/close.svg" class="close-icon" (click)="toogleDrawer()"/>
+    <div class="drawer-content">
+        <ul style="list-style: none;">
+            <li class="nav-item">
+              <a class="nav-link" (click)="closeAndScroll('about')">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="closeAndScroll('experience')">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="closeAndScroll('work')">WORK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" (click)="closeAndScroll('contact')">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+  </div>
   <div class="nav-content"  data-aos="fade-down">
     <div class="navbar-brand brand-style">AVINASH</div>
     <div class="floater">
-      <ul class="nav">
+      <ul class="nav desktop-view">
           <li class="nav-item">
             <a class="nav-link" (click)="scroll('about')">ABOUT</a>
           </li>
@@ -16,6 +35,9 @@
               <a class="nav-link" (click)="scroll('contact')">CONTACT</a>
           </li>
       </ul>
+      <div class="mobile-view">
+          <img src="assets/img/ham.svg" class="drawer-icon " (click)="toogleDrawer()"/>
+      </div>
     </div> 
   </div>
 </div>

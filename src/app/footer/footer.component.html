@@ -14,4 +14,16 @@
         <div class="content">Avi.U</div>
         <div style="color:#0c223a">aS</div>
     </div>
+    <div class="bottom-pane">
+      <div class="social-media">
+        <div *ngFor="let config of footerConfig" style="margin-left: 10px;">
+            <a href={{config.url}} target="_blank">
+                <img src="{{config.icon}}"/>
+            </a>
+          </div>
+      </div>   
+      <span class="signature">
+        aS
+      </span>
+    </div>
 </div>
