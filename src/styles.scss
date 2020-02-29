@@ -26,3 +26,22 @@ body {
         display: block !important;
     }
 }
+
+
+.gen-btn {
+    text-decoration: none;
+    cursor: pointer;
+    color: #42a998 !important;
+    border: 1px solid;
+    padding: 13px;
+    border-radius: 6px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.gen-btn:hover {
+    background-color: #16273a;
+    color: #42a998;
+    border: 1px solid;
+    text-decoration: none;
+}

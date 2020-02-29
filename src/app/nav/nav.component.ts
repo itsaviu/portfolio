@@ -39,4 +39,7 @@ export class NavComponent implements OnInit {
     this.visible = !this.visible;
   }
 
+  openResume() {
+    window.open('/assets/files/Avi-Coda-3yrs.pdf', '_blank');
+  }
 }

@@ -22,7 +22,7 @@
             font-size: 20px;
             color: #64ffda;
             position: absolute;
-            left: 50%;
+            left: 46%;
             top: 35%;
             -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -74,5 +74,8 @@
                 font-weight: 200;
             }
         }
+    }
+    .gen-btn {
+        margin: 10px;
     }
 }
