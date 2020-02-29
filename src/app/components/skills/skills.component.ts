@@ -8,7 +8,7 @@ import { SkillConfig } from 'src/app/config/skills.config';
 })
 export class SkillsComponent implements OnInit {
 
-  private skillConfig: any;
+  skillConfig: any;
 
   constructor() {
     this.skillConfig = SkillConfig;

@@ -8,7 +8,7 @@ import { ExperienceConfig } from 'src/app/config/experience.config';
 })
 export class ExperienceComponent implements OnInit {
 
-  private experienceConfigs: any;
+  experienceConfigs: any;
 
   constructor() { 
     this.experienceConfigs = ExperienceConfig;
