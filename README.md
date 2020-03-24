@@ -1,7 +1,5 @@
-
 # 📖 Portfoliol Portfolio - [itsmeavi.netlify.com](https://itsmeavi.netlify.com/)
-```
-```
+
 Tool built with [Angular](https://angular.io/) and hosted in [Netlify](https://www.netlify.com/)
 
 <img src="https://i.imgur.com/RAwXy9X.png"/>
